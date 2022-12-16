@@ -16,6 +16,14 @@ a:NewButton("เสกผล","???",function()
 game.ReplicatedStorage.GiveRandomFruit:FireServer("???",1)
 end)
 
+a:NewButton("หาดาบฟอเรน","???",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6904.68945, 356.262878, -3621.18628, -0.823216379, -3.95355251e-08, -0.567727804, -9.42822211e-08, 1, 6.70728824e-08, 0.567727804, 1.08742135e-07, -0.823216379)
+
+wait(2)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.4296265, 178.127045, -1812.31152, -0.836016715, -2.06914699e-08, -0.548704028, 5.64054403e-09, 1, -4.63037608e-08, 0.548704028, -4.18057056e-08, -0.836016715)
+end)
+
 b:NewSlider("Speed", "SliderInfo", 200, 0, function(s) -- 200 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
