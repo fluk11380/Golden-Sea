@@ -111,6 +111,14 @@ local args = {
 game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
 end)
 
+b:NewButton("Baller","???",function()
+local args = {
+    [1] = "Baller"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
 ---Tab3
 
 c:NewButton("Reaper Blade","???",function()
